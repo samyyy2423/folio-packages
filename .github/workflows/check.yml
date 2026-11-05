@@ -10,5 +10,5 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      # index.json as moth reads it, and each GitHub package's main file
+      # index.json as folio reads it, and each GitHub package's main file
       - run: node check-index.mjs

@@ -1,5 +1,5 @@
-// Checks index.json the way moth reads it: {"packages": {"name": {"repository": "...", "about": "..."}}}, names
-// in alphabetical order, and, for a repository on GitHub, that it has the package's main file, <name>.moth.
+// Checks index.json the way folio reads it: {"packages": {"name": {"repository": "...", "about": "..."}}}, names
+// in alphabetical order, and, for a repository on GitHub, that it has the package's main file, <name>.folio.
 // Run: node check-index.mjs [--offline]
 import { readFileSync } from "node:fs";
 
@@ -43,9 +43,9 @@ if (!offline) {
     const repository = index.packages[name]?.repository;
     const found = typeof repository === "string" && /^(?:https:\/\/)?github\.com\/([\w.-]+)\/([\w.-]+?)(?:\.git)?\/?$/.exec(repository.trim());
     if (!found) continue;
-    const url = `https://raw.githubusercontent.com/${found[1]}/${found[2]}/HEAD/${name}.moth`;
+    const url = `https://raw.githubusercontent.com/${found[1]}/${found[2]}/HEAD/${name}.folio`;
     const answer = await fetch(url, { method: "HEAD" }).catch((err) => ({ status: err.message }));
-    if (answer.status !== 200) problems.push(`'${name}': ${repository} has no ${name}.moth at its top (${url}: ${answer.status})`);
+    if (answer.status !== 200) problems.push(`'${name}': ${repository} has no ${name}.folio at its top (${url}: ${answer.status})`);
   }
 }
 

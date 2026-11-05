@@ -1,43 +1,43 @@
 {
   "packages": {
     "cron": {
-      "repository": "github.com/samyyy2423/moth-cron",
+      "repository": "github.com/samyyy2423/folio-cron",
       "about": "Cron schedules: whether a time fits, the next times they come round, and what they say in words"
     },
     "diff": {
-      "repository": "github.com/samyyy2423/moth-diff",
+      "repository": "github.com/samyyy2423/folio-diff",
       "about": "Line and word diffs: unified diffs as diff -u writes them, and patches applied again"
     },
     "fuzzy": {
-      "repository": "github.com/samyyy2423/moth-fuzzy",
+      "repository": "github.com/samyyy2423/folio-fuzzy",
       "about": "Fuzzy finding: edit distance, did-you-mean suggestions, and lists ranked as fzf ranks them"
     },
     "humanize": {
-      "repository": "github.com/samyyy2423/moth-humanize",
+      "repository": "github.com/samyyy2423/folio-humanize",
       "about": "Numbers, times and sizes as people say them: 5 minutes ago, 2.4 MB, 21st, 3 files"
     },
     "markdown": {
-      "repository": "github.com/samyyy2423/moth-markdown",
+      "repository": "github.com/samyyy2423/folio-markdown",
       "about": "Markdown to HTML, as CommonMark and GitHub write it, with what people type kept safe"
     },
     "router": {
-      "repository": "github.com/samyyy2423/moth-router",
-      "about": "Routes for server.moth: paths with :params, 404 and 405, static files, redirects, login checks"
+      "repository": "github.com/samyyy2423/folio-router",
+      "about": "Routes for server.folio: paths with :params, 404 and 405, static files, redirects, login checks"
     },
     "semver": {
-      "repository": "github.com/samyyy2423/moth-semver",
+      "repository": "github.com/samyyy2423/folio-semver",
       "about": "Semantic versions: read, compare, sort and bump them, and check ranges such as ^1.2.0 or ~1.4"
     },
     "template": {
-      "repository": "github.com/samyyy2423/moth-template",
+      "repository": "github.com/samyyy2423/folio-template",
       "about": "Fill {{ name }} templates from records and dictionaries, as Mustache does, with HTML kept safe"
     },
     "terminal": {
-      "repository": "github.com/samyyy2423/moth-terminal",
+      "repository": "github.com/samyyy2423/folio-terminal",
       "about": "Colours, styles, tables, boxes, progress bars and spinners for programs run in a terminal"
     },
     "validate": {
-      "repository": "github.com/samyyy2423/moth-validate",
+      "repository": "github.com/samyyy2423/folio-validate",
       "about": "Check forms and JSON against rules: a message for each wrong field, and values made the right kind"
     }
   }
