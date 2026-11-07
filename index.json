@@ -20,6 +20,14 @@
       "repository": "github.com/samyyy2423/folio-markdown",
       "about": "Markdown to HTML, as CommonMark and GitHub write it, with what people type kept safe"
     },
+    "pdftext": {
+      "repository": "github.com/samyyy2423/folio-pdftext",
+      "about": "The text of a PDF, page by page: fonts and ToUnicode maps, ActualText, forms, compressed streams"
+    },
+    "rag": {
+      "repository": "github.com/samyyy2423/folio-rag",
+      "about": "Retrieval-augmented generation: chunks, local embeddings, BM25 and vector search, cited answers"
+    },
     "router": {
       "repository": "github.com/samyyy2423/folio-router",
       "about": "Routes for server.folio: paths with :params, 404 and 405, static files, redirects, login checks"
@@ -36,9 +44,17 @@
       "repository": "github.com/samyyy2423/folio-terminal",
       "about": "Colours, styles, tables, boxes, progress bars and spinners for programs run in a terminal"
     },
+    "tokenizer": {
+      "repository": "github.com/samyyy2423/folio-tokenizer",
+      "about": "GPT's BPE (tiktoken files, tokenizer.json) and BERT's WordPiece: encode, count, chunk and train"
+    },
     "validate": {
       "repository": "github.com/samyyy2423/folio-validate",
       "about": "Check forms and JSON against rules: a message for each wrong field, and values made the right kind"
+    },
+    "vectors": {
+      "repository": "github.com/samyyy2423/folio-vectors",
+      "about": "A vector store: embeddings with ids, text and metadata, filters, cosine, dot and l2, saved to a file"
     }
   }
 }
